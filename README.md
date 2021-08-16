@@ -10,3 +10,4 @@
 7. Fill blank exchange rate with latest non-blank value
 8. Convert oil price from THB to USD unit, by divide price columns by exchange rate 
 9. Save output as csv file
+10. Schedule Step 1-9 using Airflow to execute every midnight (0.00)
