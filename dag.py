@@ -1,10 +1,6 @@
 from tasks.tasks import get_oilprice, get_exchange_rate, transform_data, load_db
 from datetime import timedelta, datetime
 
-# get_exchange_rate()
-# get_oilprice()
-# transform_data()
-# load_db()
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.operators.dummy import DummyOperator
